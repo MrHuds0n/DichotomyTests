@@ -1,12 +1,13 @@
+/* eslint-disable */
 var tests = [
   {
 
     id: 0,
 
-    name:           'Philosophy',
-    description:    'Find out how you stand along many philosophical dichotomies from egoism and altruism to skepticism and absolutism.',
-    preamble:       'You will be asked a number of questions. These will be in the form of either a statement or a scenario. For each of these questions you should state whether you agree or disagree (broadly speaking). Please try to answer as honestly as possible.',
-    results:        'Your results are displayed below:',
+    name:           'Filozofia',
+    description:    'Odkryj, gdzie znajdujesz się pośród wielu filozoficznych dychotomii, od egoizmu i altruizmu do sceptycyzmu i absolutyzmu.',
+    preamble:       'Będziesz musiał odpowiedzieć na serię pytań. Pytania zadane będą w formie twierdzenia lub scenariusza. Dla każdego z nich powinieneś wybrać czy zgadzasz się z nim lub nie. Staraj się odpowiadać tak szczerze, jak to możliwe.',
+    results:        'Twoje wyniki są przedstawione poniżej:',
 
     btnClass:       'btn-a51344',
 
@@ -16,12 +17,12 @@ var tests = [
     scales: [
       {
         a: {
-          text: 'Materialism',
+          text: 'Materializm',
           path: 'https://i.ibb.co/XjtG3g8/materialism.png',
           color: '#c4eeb2'
         },
         b: {
-          text: 'Spiritualism',
+          text: 'Spirytualizm',
           path: 'https://i.ibb.co/DYZkgPV/spiritualism.png',
           color: '#f7b9c4'
         },
@@ -29,12 +30,12 @@ var tests = [
       },
       {
         a: {
-          text: 'Egoism',
+          text: 'Egoizm',
           path: 'https://i.ibb.co/VqNpmVk/egoism.png',
           color: '#b6a8d8'
         },
         b: {
-          text: 'Altruism',
+          text: 'Altruizm',
           path: 'https://i.ibb.co/6t9tygg/altruism.png',
           color: '#fff5bf'
         },
@@ -42,12 +43,12 @@ var tests = [
       },
       {
         a: {
-          text: 'Idealism',
+          text: 'Idealizm',
           path: 'https://i.ibb.co/rmTfrvq/idealism.png',
           color: '#ffe081'
         },
         b: {
-          text: 'Pragmatism',
+          text: 'Pragmatyzm',
           path: 'https://i.ibb.co/3TSTpG5/pragmatism.png',
           color: '#7474c7'
         },
@@ -55,12 +56,12 @@ var tests = [
       },
       {
         a: {
-          text: 'Hedonism',
+          text: 'Hedonizm',
           path: 'https://i.ibb.co/YW8nMkB/hedonism.png',
           color: '#f99ba4'
         },
         b: {
-          text: 'Asceticism',
+          text: 'Ascetyzm',
           path: 'https://i.ibb.co/TmTS99G/asceticism.png',
           color: '#9be18c'
         },
@@ -68,12 +69,12 @@ var tests = [
       },
       {
         a: {
-          text: 'Nihilism',
+          text: 'Nihilizm',
           path: 'https://i.ibb.co/PFH7jw9/nihilism.png',
           color: '#86989c'
         },
         b: {
-          text: 'Moralism',
+          text: 'Moralizm',
           path: 'https://i.ibb.co/YDWs0Mt/moralism.png',
           color: '#fcead7'
         },
@@ -81,12 +82,12 @@ var tests = [
       },
       {
         a: {
-          text: 'Rationalism',
+          text: 'Racjonalizm',
           path: 'https://i.ibb.co/txNkzJg/rationalism.png',
           color: '#ffd1b3'
         },
         b: {
-          text: 'Romanticism',
+          text: 'Romantycyzm',
           path: 'https://i.ibb.co/KDKZGyQ/romanticism.png',
           color: '#8ac5bb'
         },
@@ -94,12 +95,12 @@ var tests = [
       },
       {
         a: {
-          text: 'Skepticism',
+          text: 'Sceptycyzm',
           path: 'https://i.ibb.co/26FttkZ/skepticism.png',
           color: '#a2bcd4'
         },
         b: {
-          text: 'Absolutism',
+          text: 'Absolutyzm',
           path: 'https://i.ibb.co/QFVfmyr/absolutism.png',
           color: '#ffe4bf'
         },
@@ -107,309 +108,309 @@ var tests = [
       }
     ],
 
-    instruction:    'How much do you agree/disagree with the following statement?',
+    instruction:    'Jak bardzo zgadzasz/nie zgadzasz się z poniższym stwierdzeniem?',
     questions: [
       {
-        text: 'I would rather find true love than be wealthy.',
+        text: 'Wolałbym znaleźć prawdziwą miłość niż być zamożnym.',
         effects: [-10, -5, 0, 0, 0, 0, 0]
       },
       {
-        text: 'I would rather be given an expensive car than save the life of a starving child.',
+        text: 'Wolałbym otrzymać drogi samochód niż uratować życie głodującego dziecka.',
         effects: [0, 10, 0, 5, 0, 0, 0]
       },
       {
-        text: 'I would rather receive money than gifts.',
+        text: 'Wolę otrzymywać pieniądze zamiast prezentów.',
         effects: [0, 0, -10, 0, 0, 5, 0]
       },
       {
-        text: 'I would rather be in a sexual relationship without intimacy than be in an intimate relationship without sex.',
+        text: 'Wolałbym być w związku seksualnym bez intymności niż być w intymnym związku bez seksu.',
         effects: [5, 0, 0, 10, 0, 0, 0]
       },
       {
-        text: 'There is no inherent meaning to life.',
+        text: 'Życie nie ma sensu samo w sobie.',
         effects: [0, 0, 0, 0, 10, 0, 0]
       },
       {
-        text: 'A world without colour is far darker than a world without order.',
+        text: 'Świat bez kolorów jest ciemniejszy niż świat bez porządku.',
         effects: [0, 0, 0, 0, 0, -10, 0]
       },
       {
-        text: 'Society will always need a strong authority.',
+        text: 'Społeczeństwo zawsze będzie potrzebowało silnej władzy.',
         effects: [0, 0, 0, 0, 0, 0, -10]
       },
       {
-        text: 'I believe in some form of spiritual afterlife.',
+        text: 'Wierzę w jakąś formę duchowego życia po śmierci.',
         effects: [-10, 0, 0, 0, -5, 0, 0]
       },
       {
-        text: 'If I had to choose: I would save myself instead of a loved one.',
+        text: 'Gdybym miał wybierać, uratowałbym siebie zamiast bliskiej mi osoby.',
         effects: [0, 10, 0, 5, 0, 0, 0]
       },
       {
-        text: 'The ends usually justify the means.',
+        text: 'Cel zwykle uświęca środki.',
         effects: [0, 5, -10, 0, 0, 0, 0]
       },
       {
-        text: 'I would rather live a life of personal pleasure than settle down and have children.',
+        text: 'Wolałbym wieść życie pełne osobistych przyjemności niż ustatkować się i mieć dzieci.',
         effects: [5, 5, 0, 10, 0, 0, 0]
       },
       {
-        text: 'Life is suffering and fundamentally meaningless.',
+        text: 'Życie jest cierpieniem i jest fundamentalnie bez znaczenia.',
         effects: [0, 0, 0, 0, 10, 0, 0]
       },
       {
-        text: 'When making a decision the underlying reasoning is always more important than the consequences.',
+        text: 'Przy podejmowaniu decyzji, fundamentalne przyczyny są zawsze ważniejsze niż konsekwencje.',
         effects: [0, 0, 5, 0, 0, 10, 0]
       },
       {
-        text: 'Extraordinary claims require extraordinary evidence.',
+        text: 'Nadzwyczajne tezy wymagają nadzwyczajnych dowodów.',
         effects: [0, 0, 0, 0, 0, 5, 10]
       },
       {
-        text: 'There is more to the world than mere material.',
+        text: 'Życie to coś więcej niż materializm.',
         effects: [-10, 0, 0, 0, 0, 0, 0]
       },
       {
-        text: 'Most people are inherently selfish.',
+        text: 'Większość ludzi jest naturalnie samolubna.',
         effects: [0, 10, 0, 0, 0, 0, 0]
       },
       {
-        text: 'We should strive towards a utopian society.',
+        text: 'Powinniśmy dążyć do utopijnego społeczeństwa.',
         effects: [0, 0, 10, 0, 0, 0, 0]
       },
       {
-        text: 'Sometimes we must suffer in the present so that we can have a better future.',
+        text: 'Czasem musimy cierpieć w teraźniejszości abyśmy mogli mieć lepszą przyszłość.',
         effects: [0, 0, -5, -10, 0, 0, 0]
       },
       {
-        text: 'No actions are inherently moral or immoral.',
+        text: 'Żadne działanie nie jest samo w sobie moralne lub niemoralne.',
         effects: [0, 0, 0, 0, 10, 0, 0]
       },
       {
-        text: 'Reason is more important than emotion.',
+        text: 'Rozsądek jest ważniejszy niż emocje.',
         effects: [0, 0, 0, 0, 0, 10, 0]
       },
       {
-        text: 'It is foolish to believe a claim if there is no evidence to back it up.',
+        text: 'Głupcem jest ten, kto daje wiarę tezie niepopartej dowodami.',
         effects: [0, 0, 0, 0, 0, 5, 10]
       },
       {
-        text: 'My mental wellbeing is more important to me than material possessions.',
+        text: 'Moje samopoczucie umysłowe jest dla mnie ważniejsze niż dobra materialne.',
         effects: [-10, 0, 0, 0, 0, 0, 0]
       },
       {
-        text: 'Selflessness is a virtue.',
+        text: 'Bezinteresowność jest cnotą.',
         effects: [0, -10, 0, 0, 0, 0, 0]
       },
       {
-        text: 'Our society is fundamentally flawed and in need of radical reform.',
+        text: 'Nasze społeczeństwo jest fundamentalnie wadliwe i potrzebuje radykalnych reform.',
         effects: [0, 0, 10, 0, 0, 0, 0]
       },
       {
-        text: 'I prefer friendships that help me grow as a person as opposed to ones that are exciting.',
+        text: 'Wolę przyjaźnie które pomagają mi rozwijać się jako osoba od takich które są ekscytujące.',
         effects: [0, 0, 0, -10, 0, 0, 0]
       },
       {
-        text: 'There is an underlying morality in everything that we do.',
+        text: 'Moralność jest fundamentem wszystkiego co robimy.',
         effects: [0, 0, 0, 0, -10, 0, 0]
       },
       {
-        text: 'Without music, life would be a mistake.',
+        text: 'Bez muzyki, życie byłoby bezwartościowe.',
         effects: [0, 0, 0, 0, 0, -10, 0]
       },
       {
-        text: 'There exists an omniscient, omnipotent and absolute being.',
+        text: 'Istnieje wszechwiedząca, wszechmocna i absolutna istota.',
         effects: [-5, 0, 0, 0, -5, 0, -10]
       },
       {
-        text: 'Consciousness is immaterial.',
+        text: 'Świadomość jest niematerialna.',
         effects: [-10, 0, 0, 0, 0, 0, 0]
       },
       {
-        text: 'My own prosperity matters more to me than the happiness of those around me.',
+        text: 'Mój własny dobrobyt jest ważniejszy niż szczęście tych, którzy mnie otaczają.',
         effects: [0, 10, 0, 5, 0, 0, 0]
       },
       {
-        text: 'People who desire constant success must change their conduct with the times.',
+        text: 'Ludzie, którzy ciągle dążą do sukcesu muszą dopasować się do zmieniających się czasów.',
         effects: [0, 0, -10, 0, 0, 0, 0]
       },
       {
-        text: 'It is virtuous to live a simple life without an abundance of physical comforts.',
+        text: 'Proste życie bez doczesnych dóbr jest cnotliwe.',
         effects: [-5, 0, 0, -10, -5, 0, 0]
       },
       {
-        text: 'We are all insignificant in the eyes of the universe.',
+        text: 'Nie liczymy się w perspektywie istnienia wszechświata.',
         effects: [0, 0, 0, 0, 10, 0, 0]
       },
       {
-        text: 'A society without marriage would be better than a society without divorce.',
+        text: 'Społeczeństwo bez małżeństwa byłoby lepsze niż społeczeństwo bez rozwodów.',
         effects: [0, 0, 5, 5, 5, -10, 0]
       },
       {
-        text: 'Our society defines us.',
+        text: 'Nasze społeczeństwo nas określa.',
         effects: [0, 0, 0, 0, 0, 0, -10]
       },
       {
-        text: 'Spirit and matter are two separate entities.',
+        text: 'Dusza i materia to dwie oddzielne rzeczy.',
         effects: [-10, 0, 0, 0, 0, 0, 0]
       },
       {
-        text: 'I will usually put my family, my community or my people above my own personal goals.',
+        text: 'Zwykle przedkładam swoją rodzinę, społeczność i bliskich nad moje osobiste cele.',
         effects: [0, -10, 0, -5, 0, 0, 0]
       },
       {
-        text: 'Revolution is sometimes a benefit to society.',
+        text: 'Rewolucja jest czasami przydatna dla społeczeństwa.',
         effects: [0, 0, 10, 0, 0, 0, 0]
       },
       {
-        text: 'People have the right to try to achieve as much pleasure as possible.',
+        text: 'Ludzie mają prawo próbować osiągać jak najwięcej przyjemności.',
         effects: [0, 5, 0, 10, 0, 0, 0]
       },
       {
-        text: 'Life is despair.',
+        text: 'Życie to rozpacz.',
         effects: [0, 0, 0, 0, 10, 0, 0]
       },
       {
-        text: 'Educating the mind without educating the heart is no education at all.',
+        text: 'Rozwijanie umysłu bez rozwijania serca to nie żaden rozwój.',
         effects: [0, 0, 0, 0, 0, -10, 0]
       },
       {
-        text: 'Human beings possess free will.',
+        text: 'Ludzie posiadają wolną wolę.',
         effects: [0, 0, 0, 0, -5, -5, -10]
       },
       {
-        text: 'It is good to strive towards fame, wealth and power.',
+        text: 'Dobre jest podążanie za sławą, bogactwem i władzą.',
         effects: [10, 10, 0, 5, 0, 0, 0]
       },
       {
-        text: 'I would rather live alone in luxury than in poverty with friends and family.',
+        text: 'Wolałbym żyć sam w luksusach niż z przyjaciółmi i rodziną w biedzie.',
         effects: [5, 10, 0, 0, 0, 0, 0]
       },
       {
-        text: 'Societal progression should be carried out slowly and in small, incremental steps.',
+        text: 'Rozwój społeczny powinien być dokonywany powoli i w małych krokach.',
         effects: [0, 0, -10, 0, 0, 0, 0]
       },
       {
-        text: 'Pleasure is the highest good.',
+        text: 'Przyjemność jest najwyższą wartością.',
         effects: [0, 0, 0, 10, 0, 0, 0]
       },
       {
-        text: 'I don\'t care about morality.',
+        text: 'Nie obchodzi mnie moralność.',
         effects: [0, 0, 0, 0, 10, 0, 0]
       },
       {
-        text: 'It is foolish to let emotions influence your decisions. ',
+        text: 'Głupie jest pozwalanie, aby emocje wpływały na decyzje.',
         effects: [0, 0, 0, 0, 0, 10, 0]
       },
       {
-        text: 'Nothing can be proven to be true.',
+        text: 'Nic nie może zostać udowodnione ze stuprocentową pewnością.',
         effects: [0, 0, -5, 0, 0, 0, 10]
       },
       {
-        text: 'A life of fame and fortune is more desirable to me than a happy and meaningful life.',
+        text: 'Życie w sławie i bogactwie jest dla mnie bardziej pożądane niż szczęśliwe i znaczące życie.',
         effects: [10, 5, 0, 5, 0, 0, 0]
       },
       {
-        text: 'Be kind, for everyone you meet is fighting a hard battle.',
+        text: 'Bądź życzliwy, każdy wokół ciebie prowadzi trudną walkę.',
         effects: [0, -10, 0, 0, 0, 0, 0]
       },
       {
-        text: 'The world of ideas is superior to the physical world.',
+        text: 'Świat idei jest lepszy od świata fizycznego.',
         effects: [0, 0, 10, 0, 0, -5, 0]
       },
       {
-        text: 'It is better to live a frugal life.',
+        text: 'Skromne życie jest lepsze.',
         effects: [0, 0, -5, -10, 0, 0, 0]
       },
       {
-        text: 'Moral statements are statements of truth or fact more than they are statements of emotion or desire.',
+        text: 'Wyrażanie moralności jest bardziej rzeczowe niż emocjonalne.',
         effects: [0, 0, 0, 0, -10, 0, 0]
       },
       {
-        text: 'Scientific research is more important than art and music.',
+        text: 'Badania naukowe są ważniejsze niż sztuka i muzyka.',
         effects: [0, 0, 0, 0, 0, 10, 0]
       },
       {
-        text: 'I would rather live in a wealthy society with little to no morals than live in a poor society with morals and identity.',
+        text: 'Wolałbym żyć w bogatym, niemorlanym społeczeństwie niż w biednym społeczeństwie z moralnością i tożsamością.',
         effects: [10, 5, 0, 5, 10, 0, 0]
       },
       {
-        text: 'We should focus on the wellbeing of our community.',
+        text: 'Powinniśmy skupić się na poprawianiu życia naszej społeczości.',
         effects: [0, -10, 0, 0, 0, 0, 0]
       },
       {
-        text: 'Our ideas stem from reality.',
+        text: 'Nasze idee pochodzą z rzeczywistości.',
         effects: [0, 0, 10, 0, 0, 0, 0]
       },
       {
-        text: 'Our primary pursuit should be our own passions and pleasures.',
+        text: 'Naszym podstawowym celem powinno być podążanie za pasjami i przyjemnościami.',
         effects: [0, 5, 0, 10, 5, -10, 0]
       },
       {
-        text: 'There is a distinction between \'good\' and \'bad\' that goes beyond mere human nature.',
+        text: 'Różnica między "dobrem" a "złem" wychodzi poza granice ludzkiej natury.',
         effects: [0, 0, 0, 0, -10, 0, 0]
       },
       {
-        text: 'The primary goal of humanity is the pursuit of knowledge',
+        text: 'Głównym celem ludzkości jest podążanie za wiedzą.',
         effects: [0, 0, 0, 0, 0, 10, 0]
       },
       {
-        text: 'Human beings possess a soul.',
+        text: 'Ludzie posiadają duszę.',
         effects: [-10, 0, 0, 0, 0, 0, -10]
       },
       {
-        text: 'Individuals should always act in their own self-interest.',
+        text: 'Jednostka powinna zawsze działać w zgodzie z własnym interesem.',
         effects: [0, 10, 0, 0, 0, 0, 0]
       },
       {
-        text: 'Each person has a function in society.',
+        text: 'Każdy ma swoją rolę w społeczeństwie.',
         effects: [0, 0, 10, 0, 0, 0, 0]
       },
       {
-        text: 'There is a way to live that is morally ideal.',
+        text: 'Jest sposób na życie który jest moralnie właściwy.',
         effects: [0, 0, 0, -5, -10, 0, 0]
       },
       {
-        text: 'It is not wise to be affected by strong passions and fears.',
+        text: 'Poddawanie się silnym emocjom i strachowi jest niemądre.',
         effects: [0, 0, -5, -5, 0, 10, 0]
       },
       {
-        text: 'The universe obeys natural and fundamental laws.',
+        text: 'Wszechświat jest poddany uniwersalnym i podstawowym prawom.',
         effects: [10, 0, 5, 0, 0, 0, -10]
       },
       {
-        text: 'People cannot be truly altruistic.',
+        text: 'Ludzie nie mogą być bezinteresowni.',
         effects: [0, 10, 0, 0, 0, 0, 0]
       },
       {
-        text: 'Lofty ideals such as justice and liberty are of great importance to me.',
+        text: 'Wyniosłe ideały jak sprawiedliwość i wolność mają dla mnie dużą wartość.',
         effects: [0, 0, 10, 0, 0, 0, 0]
       },
       {
-        text: 'Authority must always be ridiculed.',
+        text: 'Władza zawsze musi być wyśmiewana.',
         effects: [0, 0, 10, 0, 0, 0, 10]
       },
       {
-        text: 'Without faith in a God we cannot be content.',
+        text: 'Bez wiary w Boga nie możemy być spełnieni.',
         effects: [-5, 0, 0, 0, -10, 0, -10]
       },
       {
-        text: 'Emotion cannot be discounted when making decisions.',
+        text: 'Emocje nie mogą być ignorowane przy podejmowaniu decyzji.',
         effects: [0, 0, 0, 0, 0, -10, 0]
       },
       {
-        text: 'We can never perceive true reality.',
+        text: 'Nie jesteśmy w stanie doświadczyć prawdziwej rzeczywistości.',
         effects: [-10, 0, -5, 0, 0, 0, 10]
       },
       {
-        text: 'We should help those who are struggling in our society.',
+        text: 'Powinniśmy pomagać potrzebującym w naszym społeczeństwie.',
         effects: [0, -10, 0, 0, 0, 0, 0]
       }
     ],
 
     markers: [
       {
-        name: 'Platonism',
+        name: 'Platonizm',
         path: 'https://i.ibb.co/nbyn1gf/platonism.png',
         scales: [
           {
@@ -425,7 +426,7 @@ var tests = [
         ]
       },
       {
-        name: 'Aristotelianism',
+        name: 'Arystotelianizm',
         path: 'https://i.ibb.co/tmFbrjB/aristotelianism.png',
         scales: [
           {
@@ -441,7 +442,7 @@ var tests = [
         ]
       },
       {
-        name: 'Stoicism',
+        name: 'Stoicyzm',
         path: 'https://i.ibb.co/5WzmpWb/stoicism.png',
         scales: [
           {
@@ -457,7 +458,7 @@ var tests = [
         ]
       },
       {
-        name: 'Epicureanism',
+        name: 'Epikurianizm',
         path: 'https://i.ibb.co/hRt7gWW/epicureanism.png',
         scales: [
           {
@@ -473,7 +474,7 @@ var tests = [
         ]
       },
       {
-        name: 'Objectivism',
+        name: 'Obiektywizm',
         path: 'https://i.ibb.co/q9jRYcn/objectivism.png',
         scales: [
           {
@@ -489,7 +490,7 @@ var tests = [
         ]
       },
       {
-        name: 'Humanism',
+        name: 'Humanizm',
         path: 'https://i.ibb.co/QK7s8Sw/humanism.png',
         scales: [
           {
@@ -505,7 +506,7 @@ var tests = [
         ]
       },
       {
-        name: 'Hobbesian',
+        name: 'Hobbesjanizm',
         path: 'https://i.ibb.co/k90bqZY/hobbesian.png',
         scales: [
           {
@@ -521,7 +522,7 @@ var tests = [
         ]
       },
       {
-        name: 'Monotheism',
+        name: 'Monoteizm',
         path: 'https://i.ibb.co/qYwgtsX/monotheism.png',
         scales: [
           {
@@ -537,7 +538,7 @@ var tests = [
         ]
       },
       {
-        name: 'Nietzschean',
+        name: 'Nietzscheanizm',
         path: 'https://i.ibb.co/r4j9vqf/nietzschean.png',
         scales: [
           {
@@ -553,7 +554,7 @@ var tests = [
         ]
       },
       {
-        name: 'Rousseauian',
+        name: 'Rosseauianizm',
         path: 'https://i.ibb.co/7Kyn5vm/rousseauian.png',
         scales: [
           {

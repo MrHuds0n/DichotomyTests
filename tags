@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+buildBar	script.js	/^function buildBar(scale, result) {$/;"	f
+buildCol	script.js	/^function buildCol(test) {$/;"	f
+buildComingSoon	script.js	/^function buildComingSoon() {$/;"	f
+buildMarkers	script.js	/^function buildMarkers(results) {$/;"	f
+buildResults	script.js	/^function buildResults(results) {$/;"	f
+buildResultsBars	script.js	/^function buildResultsBars(results) {$/;"	f
+buildResultsCompass	script.js	/^function buildResultsCompass(results) { } \/\/ to-do$/;"	f
+buildRow	script.js	/^function buildRow() {$/;"	f
+displayTests	script.js	/^function displayTests() {$/;"	f
+getParameter	script.js	/^function getParameter(param) {$/;"	f
+getParameterInt	script.js	/^function getParameterInt(param) { return parseInt(getParameter(param)); }$/;"	f
+getResults	script.js	/^function getResults() {$/;"	f
+getTest	script.js	/^function getTest(id) {$/;"	f
+goToResults	script.js	/^function goToResults() {$/;"	f
+initAgree	script.js	/^function initAgree() {$/;"	f
+initScenario	script.js	/^function initScenario() { } \/\/ to-do$/;"	f
+nextAgree	script.js	/^function nextAgree(val) {$/;"	f
+nextScenario	script.js	/^function nextScenario(val) { } \/\/ to-do$/;"	f
+prev	script.js	/^function prev() {$/;"	f
+prevAgree	script.js	/^function prevAgree() {$/;"	f
+prevScenario	script.js	/^function prevScenario() { } \/\/ to-do$/;"	f
+startTest	script.js	/^function startTest() {$/;"	f
